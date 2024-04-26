@@ -8,7 +8,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-url = 'https://raw.githubusercontent.com/nivlevi1/Machine-Learning-Course/main/Assignment%201/sample.csv'
+url = 'https://raw.githubusercontent.com/nivlevi1/Building-a-Gradient-Descent-Function/main/sample.csv'
 df = pd.read_csv(url)
 
 def gradient_descent(df, intercept=0, slope=0, min_step_size=0.0001, steps=100000):
